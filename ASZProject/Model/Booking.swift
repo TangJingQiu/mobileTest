@@ -16,7 +16,7 @@ struct Booking: Codable {
     let segments: [Segment]
     
     var isExpired: Bool {
-        return Date().timeIntervalSince1970 > TimeInterval(expiryTime) ?? 0
+        return Date().timeIntervalSince1970 > ((TimeInterval(expiryTime) ?? 0) + TimeInterval(duration))
     }
 }
 

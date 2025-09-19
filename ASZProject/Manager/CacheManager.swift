@@ -28,14 +28,14 @@ class CacheManager {
     
     func getCachedBooking() -> Booking? {
         guard let data = userDefaults.data(forKey: bookingKey),
-              let expiryTime = userDefaults.object(forKey: expiryKey) as? TimeInterval else {
+              let expiryTime = userDefaults.object(forKey: expiryKey) as? String else {
             return nil
         }
         
         do {
             let decoder = JSONDecoder()
             var booking = try decoder.decode(Booking.self, from: data)
-            booking.expiryTime = "\(expiryTime)"
+            booking.expiryTime = expiryTime
             
             // 检查是否过期
             if booking.isExpired {

@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		246D1FC32E7D9D28001D5714 /* Booking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E5BB3C2E7C5581007ECB01 /* Booking.swift */; };
+		246D1FC42E7D9D28001D5714 /* Booking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E5BB3C2E7C5581007ECB01 /* Booking.swift */; };
+		246D1FC62E7D9D81001D5714 /* BookingListViewControllerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 246D1FC52E7D9D81001D5714 /* BookingListViewControllerTest.swift */; };
+		246D1FC82E7DA02E001D5714 /* BookingTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 246D1FC72E7DA02E001D5714 /* BookingTest.swift */; };
+		246D1FCA2E7DA49C001D5714 /* CacheManagerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 246D1FC92E7DA49C001D5714 /* CacheManagerTest.swift */; };
+		246D1FCC2E7DAEB3001D5714 /* BookingDataManagerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 246D1FCB2E7DAEB3001D5714 /* BookingDataManagerTest.swift */; };
+		246D1FCE2E7DAFA3001D5714 /* MockBookingServiceTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 246D1FCD2E7DAFA3001D5714 /* MockBookingServiceTest.swift */; };
 		24E5BB2B2E7C555C007ECB01 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E5BB1F2E7C555C007ECB01 /* AppDelegate.swift */; };
 		24E5BB2C2E7C555C007ECB01 /* ASZTest.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 24E5BB212E7C555C007ECB01 /* ASZTest.xcdatamodeld */; };
 		24E5BB2D2E7C555C007ECB01 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E5BB272E7C555C007ECB01 /* SceneDelegate.swift */; };
@@ -55,6 +62,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		246D1FC52E7D9D81001D5714 /* BookingListViewControllerTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookingListViewControllerTest.swift; sourceTree = "<group>"; };
+		246D1FC72E7DA02E001D5714 /* BookingTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookingTest.swift; sourceTree = "<group>"; };
+		246D1FC92E7DA49C001D5714 /* CacheManagerTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CacheManagerTest.swift; sourceTree = "<group>"; };
+		246D1FCB2E7DAEB3001D5714 /* BookingDataManagerTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookingDataManagerTest.swift; sourceTree = "<group>"; };
+		246D1FCD2E7DAFA3001D5714 /* MockBookingServiceTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockBookingServiceTest.swift; sourceTree = "<group>"; };
 		24E5BAE82E7C551E007ECB01 /* ASZProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ASZProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		24E5BB012E7C551E007ECB01 /* ASZProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ASZProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		24E5BB0B2E7C551F007ECB01 /* ASZProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ASZProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -145,6 +157,11 @@
 			isa = PBXGroup;
 			children = (
 				24E5BB332E7C5561007ECB01 /* ASZTestTests.swift */,
+				246D1FC52E7D9D81001D5714 /* BookingListViewControllerTest.swift */,
+				246D1FC72E7DA02E001D5714 /* BookingTest.swift */,
+				246D1FC92E7DA49C001D5714 /* CacheManagerTest.swift */,
+				246D1FCB2E7DAEB3001D5714 /* BookingDataManagerTest.swift */,
+				246D1FCD2E7DAFA3001D5714 /* MockBookingServiceTest.swift */,
 			);
 			path = ASZProjectTests;
 			sourceTree = "<group>";
@@ -359,10 +376,16 @@
 			files = (
 				24E5BB442E7C5655007ECB01 /* BookingService.swift in Sources */,
 				24E5BB4C2E7C56A9007ECB01 /* CacheManager.swift in Sources */,
+				246D1FC62E7D9D81001D5714 /* BookingListViewControllerTest.swift in Sources */,
+				246D1FCE2E7DAFA3001D5714 /* MockBookingServiceTest.swift in Sources */,
+				246D1FC32E7D9D28001D5714 /* Booking.swift in Sources */,
+				246D1FC82E7DA02E001D5714 /* BookingTest.swift in Sources */,
 				24E5BB402E7C55EB007ECB01 /* BookingListViewController.swift in Sources */,
 				24E5BB352E7C5561007ECB01 /* ASZTestTests.swift in Sources */,
 				24E5BB482E7C567C007ECB01 /* MockBookingService.swift in Sources */,
+				246D1FCA2E7DA49C001D5714 /* CacheManagerTest.swift in Sources */,
 				24E5BB502E7C5700007ECB01 /* BookingDataManager.swift in Sources */,
+				246D1FCC2E7DAEB3001D5714 /* BookingDataManagerTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -371,6 +394,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				24E5BB392E7C5564007ECB01 /* ASZTestUITests.swift in Sources */,
+				246D1FC42E7D9D28001D5714 /* Booking.swift in Sources */,
 				24E5BB452E7C5655007ECB01 /* BookingService.swift in Sources */,
 				24E5BB512E7C5700007ECB01 /* BookingDataManager.swift in Sources */,
 				24E5BB412E7C55EB007ECB01 /* BookingListViewController.swift in Sources */,
